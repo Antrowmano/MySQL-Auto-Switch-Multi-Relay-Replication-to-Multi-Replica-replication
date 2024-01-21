@@ -12,10 +12,12 @@ Configuration: Edit the cred.py file to provide the necessary MySQL server crede
 Execution: Run the script using Python 3.x. Ensure that the pymysql library is installed (pip install pymysql).
 Monitoring: Monitor the console output for replication status updates and any errors.
 
-Security Considerations
+Security Considerations:
+
 Credentials: Avoid hard-coding sensitive information like credentials. Consider using environment variables or other secure methods for storing and retrieving such information.
 Access Control: Ensure that the script is executed with appropriate access permissions to interact with the MySQL servers.
 
-Dependencies
+Dependencies:
+
 Python 3.x
 pymysql library (pip install pymysql)
